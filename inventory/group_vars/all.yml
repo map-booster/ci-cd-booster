@@ -1,0 +1,20 @@
+---
+ci_cd:
+  namespace: map-ci-cd
+  display_name: map-ci-cd
+dev:
+  namespace: map-dev
+  display_name: map-dev
+test:
+  namespace: map-test
+  display_name: map-test
+
+ci_cd_app:
+  secret_name: github-ci-cd
+  ssh_private_key: "{{ ci_cd_app_private_key }}"
+spring:
+  secret_name: github-spring
+  ssh_private_key: "{{ spring_private_key }}"
+vue:
+  secret_name: github-vue
+  ssh_private_key: "{{ vue_private_key }}"

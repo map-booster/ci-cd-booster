@@ -1,0 +1,3 @@
+JOB_NAME=parking
+SCHEDULE=30 19 * * 1-5
+MESSAGE=Go move your car!!! Parking lot locks the gates at 16:30 !

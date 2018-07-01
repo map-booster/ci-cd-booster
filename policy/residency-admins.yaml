@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: v1
+  kind: RoleBinding
+  metadata:
+    creationTimestamp: null
+    name: residency-admins
+  roleRef:
+    name: admin
+  userNames:
+  - ldonley
+  - pcarney
+  - rdebeasi
+  - nmalvankar
